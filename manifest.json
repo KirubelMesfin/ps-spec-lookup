@@ -1,0 +1,9 @@
+{
+  "name": "Pass & Seymour Spec Lookup",
+  "short_name": "P&S Specs",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#c8102e",
+  "icons": []
+}
