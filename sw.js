@@ -1,4 +1,4 @@
-const CACHE = "ps-spec-lookup-v2";
+const CACHE = "ps-spec-lookup-v3";
 const ASSETS = ["./", "./index.html", "./style.css", "./app.js", "./data/ps-data.json", "./manifest.json"];
 
 self.addEventListener("install", (e) => {

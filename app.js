@@ -38,7 +38,7 @@ function matchesQuery(item, q) {
     item.fam.subcategory,
     (item.variant.colors || []).join(" "),
     expandedColors(item).join(" "),
-    item.variant.nema,
+    item.variant.nema ? `NEMA ${item.variant.nema}` : "",
     item.variant.voltage,
     item.variant.amps ? `${item.variant.amps}A ${item.variant.amps} amp` : "",
   ].join(" ").toLowerCase();
