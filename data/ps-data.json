@@ -315,6 +315,161 @@
         { "catalogNumber": "TP720-GRY", "description": "Power Outlet Receptacle Opening, One Gang", "colors": ["Gray"] },
         { "catalogNumber": "TP720-LA", "description": "Power Outlet Receptacle Opening, One Gang", "colors": ["Light Almond"] }
       ]
+    },
+    {
+      "id": "wnrl10-radiant-smart-netatmo",
+      "title": "radiant Smart Switch with Netatmo",
+      "category": "radiant",
+      "subcategory": "Smart Switch (Netatmo)",
+      "docNumber": "Product Spec Sheet (no SF#)",
+      "docDate": "2022-07",
+      "sourceUrl": "https://media.distributordatasolutions.com/legrand_synd/2022q3/documents/6bfdae258d6e8f5eeb00ba64a911a0a7a7b6f29f.pdf",
+      "certifications": [
+        "cULus Listed, Listing Number E350248",
+        "RoHS Conformant"
+      ],
+      "electrical": {
+        "Voltage": "120V"
+      },
+      "mechanical": {
+        "Actuator": "Paddle",
+        "Connection": "Wired",
+        "Number of Poles": "Single Pole, 3-Way, Multi-Location",
+        "Mounting Type": "Box"
+      },
+      "environmental": {},
+      "materials": {},
+      "connectivity": {
+        "Hub/Gateway Required": "Yes — Legrand Smart Gateway required",
+        "App": "Legrand Home+ Control app",
+        "Compatibility": "Amazon Alexa, Google Assistant, Apple HomeKit",
+        "Network": "Netatmo dedicated mesh network via Smart Gateway"
+      },
+      "dimensions": "",
+      "notes": "Installs in place of an existing single-pole switch or dimmer (neutral wire required). For 3-way control, pair with a Wireless Smart Switch with Netatmo. Also available in White and Nickel per the manufacturer's marketing copy, but this spec sheet only confirms the Light Almond catalog number below — verify other color catalog numbers on legrand.us before quoting.",
+      "warranty": "1-Year Limited Warranty",
+      "variants": [
+        { "catalogNumber": "WNRL10LA", "description": "Smart Switch with Netatmo, Single Pole/3-Way/Multi-Location", "voltage": "120V", "colors": ["Light Almond"], "upc": "785007289565" }
+      ]
+    },
+    {
+      "id": "wwrl50-smart-wifi-dimmer",
+      "title": "Smart Wi-Fi, Tru-Universal In-Wall Dimmer",
+      "category": "radiant",
+      "subcategory": "Smart Dimmer (Wi-Fi)",
+      "docNumber": "SF20282R1",
+      "docDate": "2019-07",
+      "sourceUrl": "https://media.distributordatasolutions.com/legrand_synd/2023q3/documents/0ebb9b8b7bcb4c475fe627eb9f698d09c502dff3.pdf",
+      "certifications": [
+        "cULus Listed, UL1472, CSA-C22.2 No. 184.1-95",
+        "Conforms to NEMA WD-1 and WD-6",
+        "FCC Class B Part 15, IC",
+        "Works with Amazon Alexa",
+        "Works with the Google Assistant",
+        "OCF Certified",
+        "Wi-Fi Certified",
+        "RoHS Compliant"
+      ],
+      "electrical": {
+        "Supply Voltage": "120 VAC",
+        "Maximum Rated Load": "FWD: 700W INC/ELV, 4.5A EFL/CFL/LED, 500VA MLV | REV: 450W INC/ELV, 2.1A EFL/CFL/LED",
+        "Frequency": "60Hz",
+        "Installation": "Single-Pole or 3-Way"
+      },
+      "mechanical": {
+        "Enclosure Material": "Indoor Use Only",
+        "Termination": "6\" long, 14 AWG, 105C 600V stranded wires"
+      },
+      "environmental": {},
+      "materials": {
+        "Paddle": "Polycarbonate",
+        "Back Body": "Polycarbonate"
+      },
+      "connectivity": {
+        "Radio": "Wi-Fi Certified, IEEE 802.11 b/g/n, 2.4GHz radio. Supports IPv4 and IPv6",
+        "Android App Requirement": "Android 5.0 or higher with camera",
+        "Apple iOS App Requirement": "iOS 10.0 or higher with camera",
+        "App": "Legrand Smart Light app",
+        "Compatibility": "Amazon Alexa, Google Assistant, OCF Certified"
+      },
+      "dimensions": "Dimmer (WWRL50): 4.17\" x 1.77\", 1.53\" depth | Remote (HMRW): 3.18\" x 1.77\", 1.0\" depth",
+      "notes": "No hub/gateway required — connects directly to home Wi-Fi (2.4GHz only, no 5GHz support). Optional HMR remotes add multi-location/3-way control up to 50 feet away, wirelessly.",
+      "warranty": "Limited Lifetime Warranty",
+      "variants": [
+        { "catalogNumber": "WWRL50WHCCV2", "description": "Smart Tru-Universal Dimmer, Wi-Fi, Preset Single-Pole & 3-Way up to 50 Feet with HMR Remote", "voltage": "120 VAC, 60Hz", "colors": ["White"] },
+        { "catalogNumber": "WWRL50LACCV2", "description": "Smart Tru-Universal Dimmer, Wi-Fi, Preset Single-Pole & 3-Way up to 50 Feet with HMR Remote", "voltage": "120 VAC, 60Hz", "colors": ["Light Almond"] },
+        { "catalogNumber": "WWRL50NICCV2", "description": "Smart Tru-Universal Dimmer, Wi-Fi, Preset Single-Pole & 3-Way up to 50 Feet with HMR Remote", "voltage": "120 VAC, 60Hz", "colors": ["Nickel"] },
+        { "catalogNumber": "HMRTC", "description": "Multi-Location Remote, Single-Pole/3-Way (accessory, requires WWRL50 dimmer)", "voltage": "120VAC, 60Hz", "colors": ["Ivory", "White", "Light Almond"] },
+        { "catalogNumber": "HMRW", "description": "Multi-Location Remote, Single-Pole/3-Way (accessory, requires WWRL50 dimmer)", "voltage": "120VAC, 60Hz", "colors": ["White"] },
+        { "catalogNumber": "HMRKITLA", "description": "Multi-Location Remote Dimmer, Interchangeable Faceplate (accessory)", "colors": ["Light Almond"] },
+        { "catalogNumber": "HMRKITNI", "description": "Multi-Location Remote Dimmer, Interchangeable Faceplate (accessory)", "colors": ["Nickel"] },
+        { "catalogNumber": "HMRKITW", "description": "Multi-Location Remote Dimmer, Interchangeable Faceplate (accessory)", "colors": ["White"] }
+      ]
+    },
+    {
+      "id": "adorne-wallplate-microban",
+      "title": "adorne Gloss White-on-White Screwless Wall Plate with Microban",
+      "category": "adorne",
+      "subcategory": "Wall Plates",
+      "docNumber": "Product Spec Sheet (no SF#)",
+      "docDate": "2024-10",
+      "sourceUrl": "https://media.distributordatasolutions.com/legrand_synd/2024q4/documents/ceb0a23acd2d98ce25a8975aca16b39cebfb3e80.pdf",
+      "certifications": [
+        "cULus UL514",
+        "cETLus"
+      ],
+      "electrical": {},
+      "mechanical": {
+        "Mounting Type": "Screwless",
+        "Number of Gangs": "1",
+        "Thickness": "0.07 in",
+        "Orientation": "Vertical"
+      },
+      "environmental": {
+        "Indoor/Outdoor": "Indoor"
+      },
+      "materials": {
+        "Construction": "Plastic",
+        "Features": "Antimicrobial Protection (Microban)"
+      },
+      "dimensions": "3.45\" W x 5.13\" H x 0.35\" D",
+      "notes": "Fits only adorne Collection designer switches/dimmers/outlets — not compatible with standard decora or Pass & Seymour TradeMaster devices. Includes wall plate + steel mounting frame. Microban protection applies to current production; check for a green dot/label on packaging to confirm on older inventory.",
+      "warranty": "Limited Lifetime Warranty",
+      "variants": [
+        { "catalogNumber": "AWP1G2WHW10", "description": "1-Gang Screwless Wall Plate with Microban, Dimmer/Switch or Outlet opening", "colors": ["Gloss White on White"], "upc": "785007034998" }
+      ]
+    },
+    {
+      "id": "adorne-20a-outlet",
+      "title": "adorne 20A Outlet",
+      "category": "adorne",
+      "subcategory": "Outlets",
+      "docNumber": "Product Spec Sheet (no SF#)",
+      "docDate": "2021-07",
+      "sourceUrl": "https://media.distributordatasolutions.com/legrand_synd/2021q3/documents/82c9d0f83414196cf43acfe89589444e92cce301.pdf",
+      "certifications": [
+        "cULus"
+      ],
+      "electrical": {
+        "Voltage": "125 VAC"
+      },
+      "mechanical": {
+        "Number of Poles": "Double Pole",
+        "Number of Gangs": "1",
+        "Mounting Type": "Box",
+        "Connection": "Side and Back Wire",
+        "Wire Size": "#14 - #10 AWG",
+        "Number of Wires": "3",
+        "Connection Type": "Internal Pressure Plates"
+      },
+      "environmental": {},
+      "materials": {},
+      "dimensions": "1.77\" W x 2.12\" L x 1.73\" D",
+      "notes": "Requires a separate screwless adorne Wall Plate (sold separately) — does not work with standard wall plates. Tamper-resistant shutter system with \"invisi-shutters.\"",
+      "warranty": "Limited Lifetime Warranty",
+      "variants": [
+        { "catalogNumber": "ARTR202M4", "description": "Tamper-Resistant 20A Outlet, 2 Receptacles", "amps": 20, "voltage": "125 VAC", "colors": ["Magnesium"], "upc": "785007022704" }
+      ]
     }
   ]
 }

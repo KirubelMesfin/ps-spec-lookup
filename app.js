@@ -121,6 +121,7 @@ function openDetail(item) {
 
     ${specSection("Electrical", fam.electrical)}
     ${specSection("Mechanical", fam.mechanical)}
+    ${specSection("Connectivity", fam.connectivity)}
     ${specSection("Environmental", fam.environmental)}
     ${specSection("Materials", fam.materials)}
     ${fam.dimensions ? specSection("Dimensions", { "": fam.dimensions }) : ""}
