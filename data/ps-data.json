@@ -338,18 +338,22 @@
         "Mounting Type": "Box"
       },
       "environmental": {},
-      "materials": {},
+      "materials": {
+        "Body": "Polycarbonate"
+      },
       "connectivity": {
         "Hub/Gateway Required": "Yes — Legrand Smart Gateway required",
         "App": "Legrand Home+ Control app",
         "Compatibility": "Amazon Alexa, Google Assistant, Apple HomeKit",
         "Network": "Netatmo dedicated mesh network via Smart Gateway"
       },
-      "dimensions": "",
-      "notes": "Installs in place of an existing single-pole switch or dimmer (neutral wire required). For 3-way control, pair with a Wireless Smart Switch with Netatmo. Also available in White and Nickel per the manufacturer's marketing copy, but this spec sheet only confirms the Light Almond catalog number below — verify other color catalog numbers on legrand.us before quoting.",
+      "dimensions": "1.73\" W x 4.19\" H x 1.53\" D",
+      "notes": "Installs in place of an existing single-pole switch or dimmer (neutral wire required). For 3-way control, pair with a Wireless Smart Switch with Netatmo. The Light Almond variant (WNRL10LA) is confirmed directly from the official Legrand spec sheet above. The White (WNRL10WH) and Nickel (WNRL10NI) catalog numbers were not in that spec sheet, but are cross-confirmed consistently across multiple independent retailer listings (Home Depot, Lightology, Bees Lighting) — verify on legrand.us before quoting a large order.",
       "warranty": "1-Year Limited Warranty",
       "variants": [
-        { "catalogNumber": "WNRL10LA", "description": "Smart Switch with Netatmo, Single Pole/3-Way/Multi-Location", "voltage": "120V", "colors": ["Light Almond"], "upc": "785007289565" }
+        { "catalogNumber": "WNRL10LA", "description": "Smart Switch with Netatmo, Single Pole/3-Way/Multi-Location", "amps": 15, "voltage": "120V", "colors": ["Light Almond"], "upc": "785007289565" },
+        { "catalogNumber": "WNRL10WH", "description": "Smart Switch with Netatmo, Single Pole/3-Way/Multi-Location", "amps": 15, "voltage": "120V", "colors": ["White"] },
+        { "catalogNumber": "WNRL10NI", "description": "Smart Switch with Netatmo, Single Pole/3-Way/Multi-Location", "amps": 15, "voltage": "120V", "colors": ["Nickel"] }
       ]
     },
     {
@@ -469,6 +473,193 @@
       "warranty": "Limited Lifetime Warranty",
       "variants": [
         { "catalogNumber": "ARTR202M4", "description": "Tamper-Resistant 20A Outlet, 2 Receptacles", "amps": 20, "voltage": "125 VAC", "colors": ["Magnesium"], "upc": "785007022704" }
+      ]
+    },
+    {
+      "id": "cs3024-radiant-010v-dimmer",
+      "title": "Toggle Slide Dimmer, 0-10V LED & Fluorescent",
+      "category": "radiant",
+      "subcategory": "Dimmer",
+      "docNumber": "CS3024",
+      "docDate": "2019-07",
+      "sourceUrl": "https://media.distributordatasolutions.com/legrand_synd/2023q1/documents/4400fbc281fb5b7b8229236482c7387a8a268155.pdf",
+      "certifications": [
+        "cULus Listed, UL1472, CSA"
+      ],
+      "electrical": {
+        "Supply Voltage": "120VAC/277VAC",
+        "Ratings": "120V 10A / 277V 5A",
+        "Frequency": "60Hz",
+        "Control": "0-10VDC 30mA",
+        "Installation": "Single Pole or 3-Way"
+      },
+      "mechanical": {},
+      "environmental": {
+        "Application": "Indoor Use Only"
+      },
+      "materials": {},
+      "connectivity": {},
+      "dimensions": "1.73\" W x 4.19\" H x 1.40\" D",
+      "notes": "Branded WattStopper on this spec sheet but explicitly sold as part of the radiant collection. Controls 0-10V style LED/fluorescent fixtures directly — no separate power pack needed. Interchangeable face plates (TSDKIT series) let you change color without rewiring.",
+      "warranty": "Lifetime",
+      "variants": [
+        { "catalogNumber": "TSD4FBL3PTC", "description": "Preset, Single Pole and 3-Way (includes 3 interchangeable face colors: Ivory, White, Light Almond)", "voltage": "120VAC, 60Hz", "colors": ["Ivory", "White", "Light Almond"] },
+        { "catalogNumber": "TSD4FBL3PW", "description": "Preset, Single Pole and 3-Way", "voltage": "120VAC, 60Hz", "colors": ["White"] },
+        { "catalogNumber": "TSD4FBL3PLA", "description": "Preset, Single Pole and 3-Way", "voltage": "120VAC, 60Hz", "colors": ["Light Almond"] },
+        { "catalogNumber": "TSD4FBL3PI", "description": "Preset, Single Pole and 3-Way", "voltage": "120VAC, 60Hz", "colors": ["Ivory"] },
+        { "catalogNumber": "TSD4FBL3P", "description": "Preset, Single Pole and 3-Way", "voltage": "120VAC, 60Hz", "colors": ["Brown"] },
+        { "catalogNumber": "TSD4FBL3PBK", "description": "Preset, Single Pole and 3-Way", "voltage": "120VAC, 60Hz", "colors": ["Black"] },
+        { "catalogNumber": "TSD4FBL3PRED", "description": "Preset, Single Pole and 3-Way", "voltage": "120VAC, 60Hz", "colors": ["Red"] },
+        { "catalogNumber": "TSD4FBL3PGRY", "description": "Preset, Single Pole and 3-Way", "voltage": "120VAC, 60Hz", "colors": ["Gray"] },
+        { "catalogNumber": "TSDKIT", "description": "Interchangeable Face Kit (accessory, sold separately)", "colors": ["Brown"] },
+        { "catalogNumber": "TSDKITBK", "description": "Interchangeable Face Kit (accessory, sold separately)", "colors": ["Black"] },
+        { "catalogNumber": "TSDKITGRY", "description": "Interchangeable Face Kit (accessory, sold separately)", "colors": ["Gray"] },
+        { "catalogNumber": "TSDKITI", "description": "Interchangeable Face Kit (accessory, sold separately)", "colors": ["Ivory"] },
+        { "catalogNumber": "TSDKITLA", "description": "Interchangeable Face Kit (accessory, sold separately)", "colors": ["Light Almond"] },
+        { "catalogNumber": "TSDKITW", "description": "Interchangeable Face Kit (accessory, sold separately)", "colors": ["White"] },
+        { "catalogNumber": "TSDKITRED", "description": "Interchangeable Face Kit (accessory, sold separately)", "colors": ["Red"] }
+      ]
+    },
+    {
+      "id": "sf20194-radiant-screwless-wallplates",
+      "title": "radiant Screwless Wall Plates",
+      "category": "radiant",
+      "subcategory": "Wall Plates",
+      "docNumber": "SF20194",
+      "docDate": "2019-09",
+      "sourceUrl": "https://media.distributordatasolutions.com/legrand_synd/2024q4/documents/5854f942cdfb2d6d3de8a58aa4489fa94c49cba7.pdf",
+      "certifications": [
+        "Listed to UL514",
+        "CSA Certified"
+      ],
+      "electrical": {},
+      "mechanical": {
+        "Opening Type": "Accommodates all NEMA 26-opening devices",
+        "Mounting": "One-piece plastic subplate with alignment screws"
+      },
+      "environmental": {},
+      "materials": {
+        "Body Construction": "Molded .065\" thick polycarbonate",
+        "Sub-plate Construction": "Polyphenylene Ether and Polystyrene",
+        "Mounting Screws": "Steel"
+      },
+      "connectivity": {},
+      "dimensions": "1 gang: 3.15\"x4.94\" | 2 gang: 4.96\"x4.94\" | 3 gang: 6.77\"x4.94\" | 4 gang: 8.59\"x4.94\" | 5 gang: 10.40\"x4.94\" | 6 gang: 12.21\"x4.94\" (subplates are 4.78\" tall, width scales per gang, all .15\" thick)",
+      "notes": "Extra 3/8\" width/height vs. standard wall plates for better drywall coverage. Color-matched to radiant devices. Available in 1-6 gang, six standard colors plus Nickel/Dark Bronze/Graphite metallic finishes.",
+      "warranty": "",
+      "variants": [
+        { "catalogNumber": "RWP26I", "description": "Screwless Wall Plate, One Gang", "colors": ["Ivory"] },
+        { "catalogNumber": "RWP26W", "description": "Screwless Wall Plate, One Gang", "colors": ["White"] },
+        { "catalogNumber": "RWP26", "description": "Screwless Wall Plate, One Gang", "colors": ["Brown"] },
+        { "catalogNumber": "RWP26GRY", "description": "Screwless Wall Plate, One Gang", "colors": ["Gray"] },
+        { "catalogNumber": "RWP26BK", "description": "Screwless Wall Plate, One Gang", "colors": ["Black"] },
+        { "catalogNumber": "RWP26LA", "description": "Screwless Wall Plate, One Gang", "colors": ["Light Almond"] },
+        { "catalogNumber": "RWP26NI", "description": "Screwless Wall Plate, One Gang, Metallic Finish", "colors": ["Nickel"] },
+        { "catalogNumber": "RWP26DBCC6", "description": "Screwless Wall Plate, One Gang, Metallic Finish", "colors": ["Dark Bronze"] },
+        { "catalogNumber": "RWP26GCC6", "description": "Screwless Wall Plate, One Gang, Metallic Finish", "colors": ["Graphite"] },
+        { "catalogNumber": "RWP262I", "description": "Screwless Wall Plate, Two Gang", "colors": ["Ivory"] },
+        { "catalogNumber": "RWP262W", "description": "Screwless Wall Plate, Two Gang", "colors": ["White"] },
+        { "catalogNumber": "RWP262", "description": "Screwless Wall Plate, Two Gang", "colors": ["Brown"] },
+        { "catalogNumber": "RWP262GRY", "description": "Screwless Wall Plate, Two Gang", "colors": ["Gray"] },
+        { "catalogNumber": "RWP262BK", "description": "Screwless Wall Plate, Two Gang", "colors": ["Black"] },
+        { "catalogNumber": "RWP262LA", "description": "Screwless Wall Plate, Two Gang", "colors": ["Light Almond"] },
+        { "catalogNumber": "RWP262NI", "description": "Screwless Wall Plate, Two Gang, Metallic Finish", "colors": ["Nickel"] },
+        { "catalogNumber": "RWP262DBCC6", "description": "Screwless Wall Plate, Two Gang, Metallic Finish", "colors": ["Dark Bronze"] },
+        { "catalogNumber": "RWP262GCC6", "description": "Screwless Wall Plate, Two Gang, Metallic Finish", "colors": ["Graphite"] },
+        { "catalogNumber": "RWP263I", "description": "Screwless Wall Plate, Three Gang", "colors": ["Ivory"] },
+        { "catalogNumber": "RWP263W", "description": "Screwless Wall Plate, Three Gang", "colors": ["White"] },
+        { "catalogNumber": "RWP263", "description": "Screwless Wall Plate, Three Gang", "colors": ["Brown"] },
+        { "catalogNumber": "RWP263GRY", "description": "Screwless Wall Plate, Three Gang", "colors": ["Gray"] },
+        { "catalogNumber": "RWP263BK", "description": "Screwless Wall Plate, Three Gang", "colors": ["Black"] },
+        { "catalogNumber": "RWP263LA", "description": "Screwless Wall Plate, Three Gang", "colors": ["Light Almond"] },
+        { "catalogNumber": "RWP263NI", "description": "Screwless Wall Plate, Three Gang, Metallic Finish", "colors": ["Nickel"] },
+        { "catalogNumber": "RWP263DBCC6", "description": "Screwless Wall Plate, Three Gang, Metallic Finish", "colors": ["Dark Bronze"] },
+        { "catalogNumber": "RWP263GCC6", "description": "Screwless Wall Plate, Three Gang, Metallic Finish", "colors": ["Graphite"] },
+        { "catalogNumber": "RWP264I", "description": "Screwless Wall Plate, Four Gang", "colors": ["Ivory"] },
+        { "catalogNumber": "RWP264W", "description": "Screwless Wall Plate, Four Gang", "colors": ["White"] },
+        { "catalogNumber": "RWP264", "description": "Screwless Wall Plate, Four Gang", "colors": ["Brown"] },
+        { "catalogNumber": "RWP264GRY", "description": "Screwless Wall Plate, Four Gang", "colors": ["Gray"] },
+        { "catalogNumber": "RWP264BK", "description": "Screwless Wall Plate, Four Gang", "colors": ["Black"] },
+        { "catalogNumber": "RWP264LA", "description": "Screwless Wall Plate, Four Gang", "colors": ["Light Almond"] },
+        { "catalogNumber": "RWP264NI", "description": "Screwless Wall Plate, Four Gang, Metallic Finish", "colors": ["Nickel"] },
+        { "catalogNumber": "RWP264DB", "description": "Screwless Wall Plate, Four Gang, Metallic Finish", "colors": ["Dark Bronze"] },
+        { "catalogNumber": "RWP264GCC6", "description": "Screwless Wall Plate, Four Gang, Metallic Finish", "colors": ["Graphite"] },
+        { "catalogNumber": "RWP265I", "description": "Screwless Wall Plate, Five Gang", "colors": ["Ivory"] },
+        { "catalogNumber": "RWP265W", "description": "Screwless Wall Plate, Five Gang", "colors": ["White"] },
+        { "catalogNumber": "RWP265", "description": "Screwless Wall Plate, Five Gang", "colors": ["Brown"] },
+        { "catalogNumber": "RWP265GRY", "description": "Screwless Wall Plate, Five Gang", "colors": ["Gray"] },
+        { "catalogNumber": "RWP265BK", "description": "Screwless Wall Plate, Five Gang", "colors": ["Black"] },
+        { "catalogNumber": "RWP265LA", "description": "Screwless Wall Plate, Five Gang", "colors": ["Light Almond"] },
+        { "catalogNumber": "RWP265NI", "description": "Screwless Wall Plate, Five Gang, Metallic Finish", "colors": ["Nickel"] },
+        { "catalogNumber": "RWP265DB", "description": "Screwless Wall Plate, Five Gang, Metallic Finish", "colors": ["Dark Bronze"] },
+        { "catalogNumber": "RWP265G", "description": "Screwless Wall Plate, Five Gang, Metallic Finish", "colors": ["Graphite"] },
+        { "catalogNumber": "RWP266I", "description": "Screwless Wall Plate, Six Gang", "colors": ["Ivory"] },
+        { "catalogNumber": "RWP266W", "description": "Screwless Wall Plate, Six Gang", "colors": ["White"] },
+        { "catalogNumber": "RWP266", "description": "Screwless Wall Plate, Six Gang", "colors": ["Brown"] },
+        { "catalogNumber": "RWP266GRY", "description": "Screwless Wall Plate, Six Gang", "colors": ["Gray"] },
+        { "catalogNumber": "RWP266BK", "description": "Screwless Wall Plate, Six Gang", "colors": ["Black"] },
+        { "catalogNumber": "RWP266LA", "description": "Screwless Wall Plate, Six Gang", "colors": ["Light Almond"] },
+        { "catalogNumber": "RWP266NI", "description": "Screwless Wall Plate, Six Gang, Metallic Finish", "colors": ["Nickel"] },
+        { "catalogNumber": "RWP266DB", "description": "Screwless Wall Plate, Six Gang, Metallic Finish", "colors": ["Dark Bronze"] },
+        { "catalogNumber": "RWP266G", "description": "Screwless Wall Plate, Six Gang, Metallic Finish", "colors": ["Graphite"] }
+      ]
+    },
+    {
+      "id": "adorne-paddle-switch-aspd1532",
+      "title": "adorne Paddle Switch, 2-Module, 15A, SP/3W, 120VAC",
+      "category": "adorne",
+      "subcategory": "Switches",
+      "docNumber": "No. 340943 Rev. 1 (Installation Instructions, not a full spec sheet)",
+      "docDate": "2012-03",
+      "sourceUrl": "https://media.distributordatasolutions.com/legrand_synd/2024q1/documents/84db7ade0ea3d57dab6d6d2ae24413f03d3cca5a.pdf",
+      "certifications": [],
+      "electrical": {
+        "Voltage": "120VAC",
+        "Rating": "15A"
+      },
+      "mechanical": {
+        "Number of Poles": "Single Pole or 3-Way",
+        "Wire Size": "#14-#12 AWG",
+        "Mounting": "Snaps into adorne frame + wall plate (sold separately)"
+      },
+      "environmental": {},
+      "materials": {},
+      "connectivity": {},
+      "dimensions": "",
+      "notes": "This source is an installation instruction sheet, not a full ordering-info spec sheet — it only confirms one base catalog number (ASPD1532) and does not list color-suffix variants. adorne switches are sold in an extensive range of colors/finishes; verify the specific color catalog number on legrand.us before quoting. Requires a separate adorne frame and screwless wall plate, both sold separately.",
+      "warranty": "Limited Lifetime Warranty",
+      "variants": [
+        { "catalogNumber": "ASPD1532", "description": "Paddle Switch, 2-Module, Single Pole/3-Way (base catalog number; color suffix varies by finish, not confirmed in this document)", "amps": 15, "voltage": "120VAC" }
+      ]
+    },
+    {
+      "id": "adorne-wave-switch-aswv2032",
+      "title": "adorne Wave Switch, 2-Module, 20A, SP/3W",
+      "category": "adorne",
+      "subcategory": "Switches",
+      "docNumber": "No. 341357 (Installation Instructions, not a full spec sheet)",
+      "docDate": "2021-08",
+      "sourceUrl": "https://media.distributordatasolutions.com/legrand_synd/2024q1/documents/a1f8d2727b2789ac876e629c2cc9bec785bbd92e.pdf",
+      "certifications": [],
+      "electrical": {
+        "Voltage": "120VAC",
+        "Ratings": "20A Resistive, 20A General Purpose, 20A Incandescent, 3/4 HP, 20A Standard Ballast, 16A Electronic Ballast",
+        "Note": "Not suitable as a disconnect"
+      },
+      "mechanical": {
+        "Number of Poles": "Single Pole or 3-Way",
+        "Wire Size": "#14-#12 AWG",
+        "Mounting": "Snaps into adorne frame + wall plate (sold separately)",
+        "Actuation": "Touchless wave/proximity sensor (no physical toggle) with adjustable sensing distance"
+      },
+      "environmental": {},
+      "materials": {},
+      "connectivity": {},
+      "dimensions": "",
+      "notes": "This is a touchless proximity-sensing switch (wave your hand near it), not app/Wi-Fi connected — no hub or app required. This source is an installation sheet, not a full ordering-info spec sheet, so only the base catalog number (ASWV2032) is confirmed; verify color/finish suffix on legrand.us before quoting. Neutral wire optional (connect to White terminal if present in box).",
+      "warranty": "Limited Lifetime Warranty",
+      "variants": [
+        { "catalogNumber": "ASWV2032", "description": "Wave Switch (touchless proximity sensor), 2-Module, Single Pole/3-Way", "amps": 20, "voltage": "120VAC" }
       ]
     }
   ]
