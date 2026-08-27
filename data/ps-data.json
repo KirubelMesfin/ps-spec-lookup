@@ -16,7 +16,10 @@
       "DB": "Dark Bronze",
       "O": "Orange",
       "BL": "Blue",
-      "Light Almond": "Light Almond"
+      "Light Almond": "Light Almond",
+      "V": "Ivory",
+      "G": "Gray",
+      "S": "Stainless Steel"
     }
   },
   "families": [
@@ -1298,7 +1301,7 @@
     },
     {
       "id": "wnrl10-radiant-smart-netatmo",
-      "title": "radiant Smart Switch with Netatmo",
+      "title": "Radiant Smart Switch with Netatmo",
       "category": "Switches",
       "subcategory": "Smart (Netatmo)",
       "docNumber": "Product Spec Sheet (no SF#)",
@@ -1360,7 +1363,7 @@
           ]
         }
       ],
-      "brand": "radiant"
+      "brand": "Radiant"
     },
     {
       "id": "wwrl50-smart-wifi-dimmer",
@@ -1470,11 +1473,11 @@
           ]
         }
       ],
-      "brand": "radiant"
+      "brand": "Radiant"
     },
     {
       "id": "adorne-wallplate-microban",
-      "title": "adorne Gloss White-on-White Screwless Wall Plate with Microban",
+      "title": "Adorne Gloss White-on-White Screwless Wall Plate with Microban",
       "category": "Wall Plates",
       "subcategory": "Screwless Plastic (Microban)",
       "docNumber": "Product Spec Sheet (no SF#)",
@@ -1511,11 +1514,11 @@
           "upc": "785007034998"
         }
       ],
-      "brand": "adorne"
+      "brand": "Adorne"
     },
     {
       "id": "adorne-20a-outlet",
-      "title": "adorne 20A Outlet",
+      "title": "Adorne 20A Outlet",
       "category": "Outlets",
       "subcategory": "20A",
       "docNumber": "Product Spec Sheet (no SF#)",
@@ -1553,7 +1556,7 @@
           "upc": "785007022704"
         }
       ],
-      "brand": "adorne"
+      "brand": "Adorne"
     },
     {
       "id": "cs3024-radiant-010v-dimmer",
@@ -1699,11 +1702,11 @@
           ]
         }
       ],
-      "brand": "radiant"
+      "brand": "Radiant"
     },
     {
       "id": "sf20194-radiant-screwless-wallplates",
-      "title": "radiant Screwless Wall Plates",
+      "title": "Radiant Screwless Wall Plates",
       "category": "Wall Plates",
       "subcategory": "Screwless Polycarbonate",
       "docNumber": "SF20194",
@@ -2108,11 +2111,11 @@
           ]
         }
       ],
-      "brand": "radiant"
+      "brand": "Radiant"
     },
     {
       "id": "adorne-paddle-switch-aspd1532",
-      "title": "adorne Paddle Switch, 2-Module, 15A, SP/3W, 120VAC",
+      "title": "Adorne Paddle Switch, 2-Module, 15A, SP/3W, 120VAC",
       "category": "Switches",
       "subcategory": "Paddle",
       "docNumber": "No. 340943 Rev. 1 (Installation Instructions, not a full spec sheet)",
@@ -2142,11 +2145,11 @@
           "voltage": "120VAC"
         }
       ],
-      "brand": "adorne"
+      "brand": "Adorne"
     },
     {
       "id": "adorne-wave-switch-aswv2032",
-      "title": "adorne Wave Switch, 2-Module, 20A, SP/3W",
+      "title": "Adorne Wave Switch, 2-Module, 20A, SP/3W",
       "category": "Switches",
       "subcategory": "Wave (Touchless)",
       "docNumber": "No. 341357 (Installation Instructions, not a full spec sheet)",
@@ -2178,7 +2181,622 @@
           "voltage": "120VAC"
         }
       ],
-      "brand": "adorne"
+      "brand": "Adorne"
+    },
+    {
+      "id": "ed532r18-wiremold-500-700-raceway",
+      "title": "Wiremold 500 & 700 Series Steel Surface Raceway",
+      "brand": "Wiremold",
+      "category": "Raceway",
+      "subcategory": "500/700 Series Steel Raceway",
+      "docNumber": "ED532R18",
+      "docDate": "2016-09",
+      "sourceUrl": "https://media.distributordatasolutions.com/legrand_synd/2024q1/documents/a39396eb2e2cacff4921c86c56a1da6943ab340a.pdf",
+      "certifications": [
+        "UL and cUL Listed component raceways, File E4376 Guide RJBT (raceway)",
+        "Fittings File E41751 Guide RJPR",
+        "UL5 and ADA compliant",
+        "Meets Article 386 of NEC and Section 12-600 of CEC"
+      ],
+      "electrical": {},
+      "mechanical": {
+        "Screw Note": "Use #6 flat head screws with most fittings requiring screws, except V504/V704 (use #8 pan head screws) and V57200 Series (use #8 flat head screws)",
+        "Wire Fill (Power, 40% fill)": "14 AWG: 7 (V500) / 10 (V700) | 12 AWG: 5 (V500) / 7 (V700) | 10 AWG: 3 (V500) / 4 (V700)"
+      },
+      "environmental": {},
+      "materials": {
+        "Raceway": ".040\" (1.0mm) steel with ScuffCoat finish"
+      },
+      "connectivity": {},
+      "dimensions": "",
+      "notes": "Curated core subset of the 500/700 Series system — the raceway itself plus the most commonly quoted fittings, elbows, and device/switch/receptacle boxes. The full catalog includes many more specialty fittings (alarm device boxes, round fixture boxes, flexible sections, corner boxes, bridge fittings, laser level and cutting-guide tools) not included here — ask if you need one added. 700 Series is available in ivory and white; 500 Series fittings are generally galvanized/plated only unless noted.",
+      "warranty": "",
+      "variants": [
+        {
+          "catalogNumber": "V500",
+          "description": "Steel Raceway, .040\" steel, 10 ft length (one 5701 coupling included); 5 ft length available as V500-5",
+          "dimensions": "17/32\" x 3/4\""
+        },
+        {
+          "catalogNumber": "V500-5",
+          "description": "Steel Raceway, .040\" steel, 5 ft length",
+          "dimensions": "17/32\" x 3/4\""
+        },
+        {
+          "catalogNumber": "V700",
+          "description": "Steel Raceway, .040\" steel, 10 ft length, ivory (one 5701 coupling included); 5 ft length available as V700-5",
+          "colors": [
+            "Ivory"
+          ],
+          "dimensions": "21/32\" x 3/4\""
+        },
+        {
+          "catalogNumber": "700WH",
+          "description": "Steel Raceway, .040\" steel, 10 ft length, white",
+          "colors": [
+            "White"
+          ],
+          "dimensions": "21/32\" x 3/4\""
+        },
+        {
+          "catalogNumber": "V700-5",
+          "description": "Steel Raceway, .040\" steel, 5 ft length, ivory",
+          "colors": [
+            "Ivory"
+          ],
+          "dimensions": "21/32\" x 3/4\""
+        },
+        {
+          "catalogNumber": "5701",
+          "description": "Coupling — joins and supports lengths of V500 or 700 Series raceway; one supplied with each length",
+          "dimensions": "2\" (51mm)"
+        },
+        {
+          "catalogNumber": "V5703",
+          "description": "Supporting Clip — supports raceway lengths at any point",
+          "dimensions": "2 1/2\" (64mm)"
+        },
+        {
+          "catalogNumber": "502",
+          "description": "Bushing (for V500) — protects wires from abrasion at raceway/fitting entry"
+        },
+        {
+          "catalogNumber": "702",
+          "description": "Bushing (for V700) — protects wires from abrasion at raceway/fitting entry"
+        },
+        {
+          "catalogNumber": "V504",
+          "description": "Mounting Strap, 1- or 2-Hole (for V500)",
+          "dimensions": "1 7/8\" x 1/2\""
+        },
+        {
+          "catalogNumber": "V704",
+          "description": "Mounting Strap, 1- or 2-Hole (for V700)",
+          "dimensions": "1 7/8\" x 5/8\""
+        },
+        {
+          "catalogNumber": "704WH",
+          "description": "Mounting Strap, 1- or 2-Hole, white (for V700)",
+          "colors": [
+            "White"
+          ],
+          "dimensions": "1 7/8\" x 5/8\""
+        },
+        {
+          "catalogNumber": "V506",
+          "description": "Connection Cover (for V500) — covers openings where raceway lengths not squarely cut meet",
+          "dimensions": "3/4\" (19.1mm)"
+        },
+        {
+          "catalogNumber": "V706",
+          "description": "Connection Cover (for V700)",
+          "dimensions": "3/4\" (19.1mm)"
+        },
+        {
+          "catalogNumber": "706WH",
+          "description": "Connection Cover, white (for V700)",
+          "colors": [
+            "White"
+          ],
+          "dimensions": "3/4\" (19.1mm)"
+        },
+        {
+          "catalogNumber": "V511",
+          "description": "90° Flat Elbow, same-surface right angle turn (for V500)",
+          "dimensions": "2\" (51mm)"
+        },
+        {
+          "catalogNumber": "V711",
+          "description": "90° Flat Elbow, same-surface right angle turn (for V700)",
+          "dimensions": "2\" (51mm)"
+        },
+        {
+          "catalogNumber": "711WH",
+          "description": "90° Flat Elbow, white (for V700)",
+          "colors": [
+            "White"
+          ],
+          "dimensions": "2\" (51mm)"
+        },
+        {
+          "catalogNumber": "V512",
+          "description": "45° Flat Elbow, same-surface diagonal turn (for V500)",
+          "dimensions": "1 1/4\" (32mm)"
+        },
+        {
+          "catalogNumber": "V712",
+          "description": "45° Flat Elbow, same-surface diagonal turn (for V700)",
+          "dimensions": "1 1/4\" (32mm)"
+        },
+        {
+          "catalogNumber": "V517",
+          "description": "Internal Elbow, inside right angle (for V500)",
+          "dimensions": "2 3/4\" (70mm)"
+        },
+        {
+          "catalogNumber": "V717",
+          "description": "Internal Elbow, inside right angle (for V700)",
+          "dimensions": "2 3/4\" (70mm)"
+        },
+        {
+          "catalogNumber": "717WH",
+          "description": "Internal Elbow, white (for V700)",
+          "colors": [
+            "White"
+          ],
+          "dimensions": "2 3/4\" (70mm)"
+        },
+        {
+          "catalogNumber": "V518",
+          "description": "External Elbow, outside right angle (for V500)",
+          "dimensions": "2 1/2\" (64mm)"
+        },
+        {
+          "catalogNumber": "V718",
+          "description": "External Elbow, outside right angle (for V700)",
+          "dimensions": "2 1/2\" (64mm)"
+        },
+        {
+          "catalogNumber": "718WH",
+          "description": "External Elbow, white (for V700)",
+          "colors": [
+            "White"
+          ],
+          "dimensions": "2 1/2\" (64mm)"
+        },
+        {
+          "catalogNumber": "V5715",
+          "description": "Tee Fitting — for branches at right angles (for V500)",
+          "dimensions": "2 1/2\" x 7/8\""
+        },
+        {
+          "catalogNumber": "5715WH",
+          "description": "Tee Fitting, white (works with V700 via cover twistout)",
+          "colors": [
+            "White"
+          ],
+          "dimensions": "2 1/2\" x 7/8\""
+        },
+        {
+          "catalogNumber": "V57240",
+          "description": "15A, 125V Single Pole Switch and Box — accommodates other standard single-gang switches",
+          "amps": 15,
+          "voltage": "125V",
+          "dimensions": "4 1/8\" x 2\""
+        },
+        {
+          "catalogNumber": "V57242",
+          "description": "Utility Box — tee, cross, pull box, junction box, or blank box",
+          "dimensions": "4 1/8\" x 2\""
+        },
+        {
+          "catalogNumber": "V57243G",
+          "description": "15A, 125V Duplex Grounding Receptacle and Box — accommodates other standard 15A (5-15R) or 20A (5-20R) duplex devices",
+          "amps": 15,
+          "voltage": "125V",
+          "nema": "5-15R",
+          "dimensions": "4 1/8\" x 2\""
+        },
+        {
+          "catalogNumber": "V5747",
+          "description": "Shallow Device Box — standard shallow switches, receptacles, communication devices",
+          "dimensions": "4 5/8\" x 2 7/8\", gang 1"
+        },
+        {
+          "catalogNumber": "5747WH",
+          "description": "Shallow Device Box, white",
+          "colors": [
+            "White"
+          ],
+          "dimensions": "4 5/8\" x 2 7/8\", gang 1"
+        },
+        {
+          "catalogNumber": "V5748",
+          "description": "Device Box — for deep switches, receptacles, communication devices",
+          "dimensions": "4 5/8\" x 2 7/8\", gang 1"
+        },
+        {
+          "catalogNumber": "5748WH",
+          "description": "Device Box, white",
+          "colors": [
+            "White"
+          ],
+          "dimensions": "4 5/8\" x 2 7/8\", gang 1"
+        },
+        {
+          "catalogNumber": "605",
+          "description": "V500 Raceway Cutter — single action portable cutter"
+        },
+        {
+          "catalogNumber": "607",
+          "description": "700 Series Raceway Cutter — single action portable cutter"
+        }
+      ]
+    },
+    {
+      "id": "wiremold-plugmold-2000-series",
+      "title": "Wiremold Plugmold 2000 Series Multioutlet Strips",
+      "brand": "Wiremold",
+      "category": "Raceway",
+      "subcategory": "Plugmold Multioutlet Strips",
+      "docNumber": "Wiremold Product Catalog, Plugmold Systems section (pp. 240-241)",
+      "docDate": "undated catalog excerpt",
+      "sourceUrl": "https://media.distributordatasolutions.com/GraniteCity/2017q3/73c333443de68be76d67d072ea7f8d355da9258b.pdf",
+      "certifications": [
+        "cULus Listed, Base & Blank Cover File E4376 Guide RJBT",
+        "Multi-outlet Assemblies File E15191 Guide PVGT",
+        "Fittings File E41751 Guide RJPR",
+        "Meets Article 386 of NEC (base/cover), Article 380 of NEC (wired sections)",
+        "Meets Section 12-3032 of CEC"
+      ],
+      "electrical": {
+        "Outlet Rating": "15A, 125V, NEMA 5-15R",
+        "GB Wiring": "3-wire #12 THHN solid (1 hot, 1 neutral, 1 insulated ground), 1 circuit",
+        "GBA Wiring": "4-wire #12 THHN solid (2 hot, 1 neutral, 1 insulated ground), 2 circuits, outlets wired alternately",
+        "IG Wiring": "3-wire #12 THHN solid, 1 circuit, insulated-isolated ground, orange receptacle"
+      },
+      "mechanical": {
+        "Receptacles": "High impact thermoplastic",
+        "Included": "2000 Series supplied with two 2010B Blank End Fittings and one 2001 Base Coupling"
+      },
+      "environmental": {},
+      "materials": {},
+      "connectivity": {},
+      "dimensions": "Cross-section: 1 9/32\" x 3/4\" (0.80 in² area)",
+      "notes": "Ivory/Gray/White/Black finishes in GB and GBA wiring have matching color receptacles; stainless steel has black receptacles; IG wiring has orange receptacles. This is the core 2000 Series strip lineup — 48'/50' continuous Snapicoil harness lengths, cord-ended units, and the full fittings line (couplings, elbows, device boxes, wire connectors) also exist in the catalog but aren't itemized here.",
+      "warranty": "",
+      "variants": [
+        {
+          "catalogNumber": "20GB206",
+          "description": "Plugmold Strip, GB wiring, 2 ft, 6\" outlet spacing, 4 outlets",
+          "colors": [
+            "Stainless Steel"
+          ],
+          "amps": 15,
+          "voltage": "125V",
+          "nema": "5-15R"
+        },
+        {
+          "catalogNumber": "20GB306",
+          "description": "Plugmold Strip, GB wiring, 3 ft, 6\" outlet spacing, 6 outlets",
+          "colors": [
+            "Ivory",
+            "Gray",
+            "Black",
+            "White",
+            "Stainless Steel"
+          ],
+          "amps": 15,
+          "voltage": "125V",
+          "nema": "5-15R"
+        },
+        {
+          "catalogNumber": "20IG306",
+          "description": "Plugmold Strip, IG (isolated ground) wiring, 3 ft, 6\" outlet spacing, 6 outlets, orange receptacle",
+          "colors": [
+            "Ivory",
+            "Gray"
+          ],
+          "amps": 15,
+          "voltage": "125V",
+          "nema": "5-15R"
+        },
+        {
+          "catalogNumber": "20GB506",
+          "description": "Plugmold Strip, GB wiring, 5 ft, 6\" outlet spacing, 10 outlets",
+          "colors": [
+            "Ivory",
+            "Gray",
+            "Black",
+            "White",
+            "Stainless Steel"
+          ],
+          "amps": 15,
+          "voltage": "125V",
+          "nema": "5-15R"
+        },
+        {
+          "catalogNumber": "20GB512",
+          "description": "Plugmold Strip, GB wiring, 5 ft, 12\" outlet spacing, 5 outlets",
+          "colors": [
+            "Ivory",
+            "Gray",
+            "Black",
+            "White",
+            "Stainless Steel"
+          ],
+          "amps": 15,
+          "voltage": "125V",
+          "nema": "5-15R"
+        },
+        {
+          "catalogNumber": "20GBA512",
+          "description": "Plugmold Strip, GBA (2 alternating circuits) wiring, 5 ft, 12\" outlet spacing, 5 outlets",
+          "colors": [
+            "Ivory",
+            "Gray"
+          ],
+          "amps": 15,
+          "voltage": "125V",
+          "nema": "5-15R"
+        },
+        {
+          "catalogNumber": "20IG512",
+          "description": "Plugmold Strip, IG (isolated ground) wiring, 5 ft, 12\" outlet spacing, 5 outlets, orange receptacle",
+          "colors": [
+            "Ivory",
+            "Gray"
+          ],
+          "amps": 15,
+          "voltage": "125V",
+          "nema": "5-15R"
+        },
+        {
+          "catalogNumber": "20GB606",
+          "description": "Plugmold Strip, GB wiring, 6 ft, 6\" outlet spacing, 12 outlets",
+          "colors": [
+            "Ivory",
+            "Gray",
+            "Black",
+            "White",
+            "Stainless Steel"
+          ],
+          "amps": 15,
+          "voltage": "125V",
+          "nema": "5-15R"
+        },
+        {
+          "catalogNumber": "20GB609",
+          "description": "Plugmold Strip, GB wiring, 6 ft, 9\" outlet spacing, 8 outlets",
+          "colors": [
+            "Ivory",
+            "Gray"
+          ],
+          "amps": 15,
+          "voltage": "125V",
+          "nema": "5-15R"
+        },
+        {
+          "catalogNumber": "20GB612",
+          "description": "Plugmold Strip, GB wiring, 6 ft, 12\" outlet spacing, 6 outlets",
+          "colors": [
+            "Ivory",
+            "Gray",
+            "Black",
+            "White",
+            "Stainless Steel"
+          ],
+          "amps": 15,
+          "voltage": "125V",
+          "nema": "5-15R"
+        },
+        {
+          "catalogNumber": "20GB618",
+          "description": "Plugmold Strip, GB wiring, 6 ft, 18\" outlet spacing, 4 outlets",
+          "colors": [
+            "Ivory",
+            "Gray"
+          ],
+          "amps": 15,
+          "voltage": "125V",
+          "nema": "5-15R"
+        },
+        {
+          "catalogNumber": "20GBA609",
+          "description": "Plugmold Strip, GBA (2 alternating circuits) wiring, 6 ft, 9\" outlet spacing, 8 outlets",
+          "colors": [
+            "Ivory",
+            "Gray"
+          ],
+          "amps": 15,
+          "voltage": "125V",
+          "nema": "5-15R"
+        },
+        {
+          "catalogNumber": "20GBA612",
+          "description": "Plugmold Strip, GBA (2 alternating circuits) wiring, 6 ft, 12\" outlet spacing, 6 outlets",
+          "colors": [
+            "Ivory",
+            "Gray"
+          ],
+          "amps": 15,
+          "voltage": "125V",
+          "nema": "5-15R"
+        },
+        {
+          "catalogNumber": "20GBA618",
+          "description": "Plugmold Strip, GBA (2 alternating circuits) wiring, 6 ft, 18\" outlet spacing, 4 outlets",
+          "colors": [
+            "Ivory",
+            "Gray"
+          ],
+          "amps": 15,
+          "voltage": "125V",
+          "nema": "5-15R"
+        },
+        {
+          "catalogNumber": "20IG606",
+          "description": "Plugmold Strip, IG (isolated ground) wiring, 6 ft, 6\" outlet spacing, 12 outlets, orange receptacle",
+          "colors": [
+            "Ivory",
+            "Gray"
+          ],
+          "amps": 15,
+          "voltage": "125V",
+          "nema": "5-15R"
+        }
+      ]
+    },
+    {
+      "id": "wiremold-plugmold-usb-charging",
+      "title": "Wiremold Plugmold Multi-Outlet USB Charging System",
+      "brand": "Wiremold",
+      "category": "Raceway",
+      "subcategory": "Plugmold USB Charging",
+      "docNumber": "Wiremold Product Catalog, Plugmold Systems section (p. 264)",
+      "docDate": "undated catalog excerpt",
+      "sourceUrl": "https://media.distributordatasolutions.com/GraniteCity/2017q3/73c333443de68be76d67d072ea7f8d355da9258b.pdf",
+      "certifications": [
+        "cULus Listed, Base & Blank Cover File E4376 Guide RJBT",
+        "Multi-outlet Assemblies File E15191 Guide PVGT",
+        "Fittings File E41751 Guide RJPR",
+        "Meets Article 386 of NEC (base/cover), Article 380 of NEC (Plugmold strips)"
+      ],
+      "electrical": {
+        "Receptacles": "15A, tamper-resistant, 3-wire #12 THHN (1 hot, 1 neutral, 1 insulated ground)",
+        "USB Output": "2.4A combined (shared between 2 ports), 5VDC",
+        "Housing": ".040\" (1.0mm) steel"
+      },
+      "mechanical": {
+        "Packaging": "Packed 2 per carton; each unit supplied with 1 coupling and 2 blank end fittings"
+      },
+      "environmental": {},
+      "materials": {},
+      "connectivity": {},
+      "dimensions": "",
+      "notes": "Tamper-resistant version of Plugmold with built-in USB charging (no smart/app features — this is a physical USB power port, not connectivity in the Wi-Fi/hub sense). GFCI (TRGFI suffix) and standard tamper-resistant-only (TR suffix) versions of the same strip also exist in the same lengths/finishes — ask if you need those added.",
+      "warranty": "",
+      "variants": [
+        {
+          "catalogNumber": "AL20GB306TRUSB",
+          "description": "USB Plugmold, tamper-resistant, 36\" length, 6\" outlet spacing",
+          "colors": [
+            "Anodized Aluminum"
+          ]
+        },
+        {
+          "catalogNumber": "AL20GB506TRUSB",
+          "description": "USB Plugmold, tamper-resistant, 60\" length, 6\" outlet spacing",
+          "colors": [
+            "Anodized Aluminum"
+          ]
+        },
+        {
+          "catalogNumber": "BK20GB306TRUSB",
+          "description": "USB Plugmold, tamper-resistant, 36\" length, 6\" outlet spacing",
+          "colors": [
+            "Painted Black"
+          ]
+        },
+        {
+          "catalogNumber": "BK20GB506TRUSB",
+          "description": "USB Plugmold, tamper-resistant, 60\" length, 6\" outlet spacing",
+          "colors": [
+            "Painted Black"
+          ]
+        },
+        {
+          "catalogNumber": "BK20GB606TRUSB",
+          "description": "USB Plugmold, tamper-resistant, 72\" length, 6\" outlet spacing",
+          "colors": [
+            "Painted Black"
+          ]
+        },
+        {
+          "catalogNumber": "G20GB306TRUSB",
+          "description": "USB Plugmold, tamper-resistant, 36\" length, 6\" outlet spacing",
+          "colors": [
+            "Painted Gray"
+          ]
+        },
+        {
+          "catalogNumber": "G20GB506TRUSB",
+          "description": "USB Plugmold, tamper-resistant, 60\" length, 6\" outlet spacing",
+          "colors": [
+            "Painted Gray"
+          ]
+        },
+        {
+          "catalogNumber": "G20GB606TRUSB",
+          "description": "USB Plugmold, tamper-resistant, 72\" length, 6\" outlet spacing",
+          "colors": [
+            "Painted Gray"
+          ]
+        },
+        {
+          "catalogNumber": "S20GB306TRUSB",
+          "description": "USB Plugmold, tamper-resistant, 36\" length, 6\" outlet spacing",
+          "colors": [
+            "Stainless Steel"
+          ]
+        },
+        {
+          "catalogNumber": "S20GB506TRUSB",
+          "description": "USB Plugmold, tamper-resistant, 60\" length, 6\" outlet spacing",
+          "colors": [
+            "Stainless Steel"
+          ]
+        },
+        {
+          "catalogNumber": "S20GB606TRUSB",
+          "description": "USB Plugmold, tamper-resistant, 72\" length, 6\" outlet spacing",
+          "colors": [
+            "Stainless Steel"
+          ]
+        },
+        {
+          "catalogNumber": "V20GB306TRUSB",
+          "description": "USB Plugmold, tamper-resistant, 36\" length, 6\" outlet spacing",
+          "colors": [
+            "Painted Ivory"
+          ]
+        },
+        {
+          "catalogNumber": "V20GB506TRUSB",
+          "description": "USB Plugmold, tamper-resistant, 60\" length, 6\" outlet spacing",
+          "colors": [
+            "Painted Ivory"
+          ]
+        },
+        {
+          "catalogNumber": "V20GB606TRUSB",
+          "description": "USB Plugmold, tamper-resistant, 72\" length, 6\" outlet spacing",
+          "colors": [
+            "Painted Ivory"
+          ]
+        },
+        {
+          "catalogNumber": "WH20GB306TRUSB",
+          "description": "USB Plugmold, tamper-resistant, 36\" length, 6\" outlet spacing",
+          "colors": [
+            "Painted White"
+          ]
+        },
+        {
+          "catalogNumber": "WH20GB506TRUSB",
+          "description": "USB Plugmold, tamper-resistant, 60\" length, 6\" outlet spacing",
+          "colors": [
+            "Painted White"
+          ]
+        },
+        {
+          "catalogNumber": "WH20GB606TRUSB",
+          "description": "USB Plugmold, tamper-resistant, 72\" length, 6\" outlet spacing",
+          "colors": [
+            "Painted White"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -129,6 +129,7 @@ function openDetail(item) {
       ...(v.poles ? { Poles: v.poles } : {}),
       ...(v.colors ? { Colors: v.colors.join(", ") } : {}),
       ...(v.upc ? { UPC: v.upc } : {}),
+      ...(v.dimensions ? { Dimensions: v.dimensions } : {}),
     })}
 
     ${specSection("Electrical", fam.electrical)}
