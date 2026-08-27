@@ -1,5 +1,6 @@
 const state = {
   families: [],
+  activeBrand: "All",
   activeCategory: "All",
   query: "",
   meta: null,
@@ -7,7 +8,8 @@ const state = {
 
 const resultsEl = document.getElementById("results");
 const searchEl = document.getElementById("search");
-const chipsEl = document.getElementById("chips");
+const brandChipsEl = document.getElementById("brandChips");
+const categoryChipsEl = document.getElementById("categoryChips");
 const statusEl = document.getElementById("status");
 const detailEl = document.getElementById("detail");
 const detailBodyEl = document.getElementById("detailBody");
@@ -34,6 +36,7 @@ function matchesQuery(item, q) {
     item.variant.catalogNumber,
     item.variant.description,
     fam_title(item),
+    item.fam.brand,
     item.fam.category,
     item.fam.subcategory,
     (item.variant.colors || []).join(" "),
@@ -51,6 +54,11 @@ function fam_title(item) {
   return item.fam.title;
 }
 
+function matchesBrand(item, brand) {
+  if (brand === "All") return true;
+  return item.fam.brand === brand;
+}
+
 function matchesCategory(item, cat) {
   if (cat === "All") return true;
   return item.fam.category === cat;
@@ -58,7 +66,10 @@ function matchesCategory(item, cat) {
 
 function render() {
   const items = flattenItems().filter(
-    (it) => matchesQuery(it, state.query) && matchesCategory(it, state.activeCategory)
+    (it) =>
+      matchesQuery(it, state.query) &&
+      matchesBrand(it, state.activeBrand) &&
+      matchesCategory(it, state.activeCategory)
   );
 
   resultsEl.innerHTML = "";
@@ -78,7 +89,7 @@ function render() {
 
     card.innerHTML = `
       <div class="card-top">
-        <span class="card-cat">${item.fam.category}${item.fam.subcategory ? " · " + item.fam.subcategory : ""}</span>
+        <span class="card-cat">${item.fam.brand} · ${item.fam.category}${item.fam.subcategory ? " · " + item.fam.subcategory : ""}</span>
       </div>
       <div class="card-sku">${item.variant.catalogNumber}</div>
       <div class="card-desc">${item.variant.description}</div>
@@ -108,6 +119,7 @@ function openDetail(item) {
 
   detailBodyEl.innerHTML = `
     <h2>${v.catalogNumber}</h2>
+    <div class="sub">${fam.brand} · ${fam.category}${fam.subcategory ? " · " + fam.subcategory : ""}</div>
     <div class="sub">${fam.title} — ${v.description}</div>
 
     ${specSection("Rating", {
@@ -142,7 +154,7 @@ function openDetail(item) {
     </div>
 
     <div class="source-box">
-      Sourced from official Legrand/Pass &amp; Seymour spec sheet <strong>${fam.docNumber}</strong>
+      Sourced from official Legrand ${fam.brand} spec sheet <strong>${fam.docNumber}</strong>
       (${fam.docDate}). Verify against the source before quoting.<br>
       <a href="${fam.sourceUrl}" target="_blank" rel="noopener">${fam.sourceUrl}</a>
     </div>
@@ -156,19 +168,41 @@ detailEl.addEventListener("click", (e) => {
   if (e.target === detailEl) detailEl.classList.add("hidden");
 });
 
-function buildChips() {
-  const cats = ["All", ...new Set(state.families.map((f) => f.category))];
-  chipsEl.innerHTML = "";
+function buildBrandChips() {
+  const brands = ["All", ...new Set(state.families.map((f) => f.brand))];
+  brandChipsEl.innerHTML = "";
+  for (const brand of brands) {
+    const chip = document.createElement("div");
+    chip.className = "chip" + (brand === state.activeBrand ? " active" : "");
+    chip.textContent = brand;
+    chip.addEventListener("click", () => {
+      state.activeBrand = brand;
+      state.activeCategory = "All";
+      buildBrandChips();
+      buildCategoryChips();
+      render();
+    });
+    brandChipsEl.appendChild(chip);
+  }
+}
+
+function buildCategoryChips() {
+  const famsInBrand =
+    state.activeBrand === "All"
+      ? state.families
+      : state.families.filter((f) => f.brand === state.activeBrand);
+  const cats = ["All", ...new Set(famsInBrand.map((f) => f.category))];
+  categoryChipsEl.innerHTML = "";
   for (const cat of cats) {
     const chip = document.createElement("div");
     chip.className = "chip" + (cat === state.activeCategory ? " active" : "");
     chip.textContent = cat;
     chip.addEventListener("click", () => {
       state.activeCategory = cat;
-      buildChips();
+      buildCategoryChips();
       render();
     });
-    chipsEl.appendChild(chip);
+    categoryChipsEl.appendChild(chip);
   }
 }
 
@@ -183,7 +217,8 @@ async function init() {
     const data = await res.json();
     state.families = data.families;
     state.meta = data.meta;
-    buildChips();
+    buildBrandChips();
+    buildCategoryChips();
     render();
     const totalSkus = flattenItems().length;
     statusEl.textContent = `${totalSkus} catalog numbers · ${state.families.length} families · data as of ${data.meta.generated}`;

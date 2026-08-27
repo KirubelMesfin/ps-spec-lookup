@@ -75,6 +75,22 @@ body {
   border-color: var(--ps-red);
 }
 
+.chips-secondary {
+  margin-top: 0.4rem;
+}
+.chips-secondary .chip {
+  font-size: 0.72rem;
+  padding: 0.28rem 0.6rem;
+  background: rgba(255,255,255,0.06);
+  border-color: rgba(255,255,255,0.14);
+  color: #ccc;
+}
+.chips-secondary .chip.active {
+  background: #fff;
+  color: var(--ps-dark);
+  border-color: #fff;
+}
+
 .results {
   padding: 0.9rem;
   display: grid;
